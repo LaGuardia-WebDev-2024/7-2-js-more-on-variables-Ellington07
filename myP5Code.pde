@@ -22,8 +22,14 @@ void draw(){
 
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
-  ellipse(x + 50, y - 50, 30, 30); // right eyeball
+  ellipse(x + 50, y - 50, 30, 30); // right eyeball\
   
+  fill(200,0,0)
+  ellipse(x,y,90,30)
+  
+  rect(x-55,y-60,10,20)
+  rect(x+45,y-60,10,20)
+    
 
 }
 
